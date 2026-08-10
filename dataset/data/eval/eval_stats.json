@@ -1,0 +1,22 @@
+{
+  "eval_total": 248,
+  "train_total": 869,
+  "eval_by_category": {
+    "single_tool_call": 142,
+    "tool_error": 12,
+    "hard_negative": 40,
+    "clarify": 30,
+    "multi_turn_tool": 24
+  },
+  "eval_by_layer": {
+    "L2_状态外推": 88,
+    "L3_场景外推": 51,
+    "L1_同分布": 109
+  },
+  "eval_by_action": {
+    "CALL_TOOL": 166,
+    "RECOVER_TOOL_ERROR": 12,
+    "DIRECT_ANSWER": 40,
+    "ASK_USER": 30
+  }
+}
